@@ -31,7 +31,7 @@ result	}
 # Execute Sqlite with an input file
 SQL &lt;- function(s,d,mode) {
 if(mode == "h")	
-x &lt;- paste(".mode tabs\n.output \"r.dat\"\n.headers on\n",s,sep="")
+x &lt;- paste(".moite3de tabs\n.output \"r.dat\"\n.headers on\n",s,sep="")
 else  	x &lt;- paste(".mode tabs\n.output \"r.dat\"\n",s,sep="")
 writeLines(x,"query.sql")
 y &lt;- paste("sql ",d," &lt; query.sql", sep="")
